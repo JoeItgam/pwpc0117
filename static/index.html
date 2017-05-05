@@ -3,12 +3,74 @@
     <head>
         <meta charset="UTF-8">
         <title>Awesome Page</title>
+        <!--Cargando estilos -->    
+        <link rel="stylesheet" href="css/site.css">
+        <!--Cargando estilos de bootstrap -->
+        <!--bootstrap main -->
+        <link 
+            rel="stylesheet"
+            href="vendor\bootstrap\dist\css\bootstrap.min.css";>
+        <!--Cargando estilos de bootstrap -->
+        <link
+            rel="stylesheet"
+            href="vendor\bootstrap\dist\js\bootstrap.min.js">
+        <!-- Cargando los estilos de sweet alert -->
+        <link rel="stylesheet" href="vendor\sweetalert\dist\sweetalert.css">      
     </head>
-    <body>
-        <h1>ITGAM-TIC's</h1>
-        <p>Sitio de la carrera de TIC's</p>
-        <p>
-            <button onclick="saludar()"> Saludar </button>
-        </p>
+
+    <body BGCOLOR="#FFFFCC">
+        <!--div.bs-example>form-->
+        <div class="bs-example">
+            <form action="/" method="POST" style="padding-top: 10px;" class="form-horizontal">
+                <div class="form-group">
+                    <label for="" class="control-label col-xs-5">INGRESE SUS DATOS</label>
+                </div>
+            <div class="form-group">
+                <label for="inputNombre" class="control-label col-xs-2">Nombre del condominio</label>
+                <div class="col-xs-5">
+                    <input class="form-control" type="text" name="Nombre" id="inputNombre" placeholder="Nombre">
+                </div>
+            </div>
+            <!-- -->
+            <div class="form-group">
+                <label for="inputApellido" class="control-label col-xs-2">Nombre del condominio</label>
+                <div class="col-xs-5">
+                    <input class="form-control" type="text" name="Apellidos" id="inputApellido" placeholder="Apellidos">
+                </div>
+            </div>
+            <!-- -->
+            <div class="form-group">
+                <label for="inputDepto" class="control-label col-xs-2">Numero de Departamento</label>
+                <div class="col-xs-5">
+                    <input class="form-control" type="text" name="depto" id="inputDepto" placeholder="Num Depto">
+                </div>
+            </div>
+            <!-- -->
+            <div class="form-group">
+                <label for="inputPassword" class="control-label col-xs-2">Password</label>
+                <div class="col-xs-5">
+                    <input required class="form-control" type="password" name="password" id="inputPassword" placeholder="Ingrese Password" maxlength="8">
+                </div>
+            </div>
+
+            <!--Seccion de envio -->
+            <div class="form-group">
+                <div class="col-xs-offset-2 col-xs-10">
+                    <input type="submit" class="btn btn-primary" value="ENVIAR">
+                </div>
+            </div>
+            </form>
+        </div>          
+
+        <!-- Cargando a jquery -->
+        <script src="vendor\jquery\dist\jquery.min.js"></script>
+        <!-- Cargando Bootstrap -->
+        <script src="vendor\bootstrap\dist\js\bootstrap.min.js"></script>
+        <!-- Cargando script de sweet alert -->
+        <script src="vendor\sweetalert\dist\sweetalert.min.js"></script>
+        <!-- Cargar Scrpit  -->
+        <script src='js/site.js'></script>
+        
     </body>
 </html>
+
