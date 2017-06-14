@@ -12,9 +12,8 @@
   },
   "keywords": [
     "inventario"
-  "name": "simple_static_serv",
-  "version": "1.0.0",
-  "description": "Servidor estatico simple",
+  "name": "proyectoFinal",
+  "description": "inventario",
   "engines": {
     "node":"6.9.4",
     "npm":"3.10.10"
@@ -22,12 +21,12 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index2.html",
+    "start" : "node server.js",
     "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
-    "url": "#"
+    "url": "https://github.com/JoeItgam/pwpc0117.git"
   },
   "keywords": [
     "static",
@@ -56,9 +55,5 @@
     "sweetalert": "^1.1.3"
   }
 }
-    "colors": "^1.1.2",
-    "mime": "^1.3.4",
-    "mongodb":"^2.2.26",
-    "bower": "^1.7.9"
   }
 }
