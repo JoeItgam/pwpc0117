@@ -1,14 +1,16 @@
 {
-  "name": "simple_static_serv",
-  "description": "Servidor estatico simple",
+  "name": "inventario",
+  "description": "Inventario",
   "main": "server.js",
   "authors": [
     "@Olivas"
   ],
   "license": "ISC",
   "keywords": [
-    "static",
-    "server"
+    "inventario",
+    "server",
+    "express",
+    "passport"
   ],
   "homepage": "",
   "ignore": [
