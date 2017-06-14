@@ -11,8 +11,8 @@
     "url": "*"
   },
   "keywords": [
-    "inventario"
-  "name": "proyectoFinal",
+    "inventario",
+  "name", "proyectoFinal"],
   "description": "inventario",
   "engines": {
     "node":"6.9.4",
