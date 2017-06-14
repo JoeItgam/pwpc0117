@@ -1,27 +1,11 @@
 {
   "name": "proyecto",
   "version": "1.0.0",
-  "description": "Aplicacion de una inventario",
-  "main": " nodemon index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "*"
-  },
-  "keywords": [
-    "inventario",
-  "name", "proyectoFinal"],
   "description": "inventario",
-  "engines": {
-    "node":"6.9.4",
-    "npm":"3.10.10"
-    },
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node server.js",
+    "start": "node server.js",
     "postinstall": "bower install"
   },
   "repository": {
@@ -32,6 +16,10 @@
     "static",
     "server"
   ],
+  "engines": {
+    "node": "6.9.4",
+    "npm": "3.10.10"
+  },
   "author": "@Olivas",
   "license": "ISC",
   "dependencies": {
@@ -50,6 +38,7 @@
     "nodemon": "^1.11.0",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
+    "pug": "^2.0.0-rc.2",
     "querystring": "^0.2.0",
     "serve-favicon": "^2.4.3",
     "sweetalert": "^1.1.3"
