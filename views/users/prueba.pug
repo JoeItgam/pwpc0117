@@ -1,0 +1,6 @@
+extend ../templates/default
+
+block content
+    if isAuthenticated
+        p= 'Hola ' + user[0].nombre
+                

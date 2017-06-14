@@ -1,0 +1,13 @@
+extend ../templates/default
+
+block content
+    .container
+        .form_top
+            h2 Buscar 
+                span Articulos
+        form.form_reg(action='/user/buscar', method='POST')
+            input.input(type='text', name='IDProducto', placeholder='ID Producto')
+            input.input(type='text', name='Nombre', placeholder='Nombre')
+            .btn_form
+                input.btn_submit(type='submit', value='Enviar')
+                input.btn_reset(type='reset', value='Limpiar')

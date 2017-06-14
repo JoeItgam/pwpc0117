@@ -1,0 +1,11 @@
+extend templates/default
+
+block content
+        .inicio
+            center
+                if isAuthenticated
+                    p= 'Hola ' + user[0].nombre
+                p= 'Bienvenido a SICONI'
+        center
+            .fontWhite
+                    p(align='justify')= "SICONI es un sistema de inventarios creado por estudiasntesdel TNM campus Gustavo A. Madero para la materia de Full stack web develop (PWPC)"
